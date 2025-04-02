@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>The Weekend | Home | Nicole Chavez 2025</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../style.css" type="text/css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&family=Tinos&display=swap" rel="stylesheet">
+	
+	<style>
+	
+	body {
+  background-color: #1a0000; 
+  color: white;
+  font-family: 'Tinos', serif;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  background-color: black;
+  margin: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: 'Teko', sans-serif;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 15px 10px;
+  display: block;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: red;
+  text-shadow: 0 0 10px red;
+}
+
+	.main-image {
+  display: block;
+  margin: 40px auto;
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+	
+
+h1 {
+  font-family: 'Teko', sans-serif;
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 10px;
+}
+
+
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+</style>
+	
+	<link href="style.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<wrapper> 
+	<header>
+		<h1> <img src="../SilverLogoPNG.png" alt/></h1>
+		</header>
+  <nav>
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+	<li><a href="news.html">NEWS</a></li>
+      <li><a href=" music.html">MUSIC</a></li>
+      <li><a href="videos.html">VIDEOS</a></li>
+      <li><a href=" ">TOUR</a></li>
+      <li><a href="../ ">PHOTOS</a></li>
+      <li><a href="../ ">MERCH</a></li>
+		
+      <li><a href="../ ">PRIVACY</a></li>
+    </ul>
+  </nav>
+	
+<main>
+  <img src="../RedBanner.png" alt="The Weeknd Banner Image" class="main-image">
+
+</main>
+
+	<footer> 
+<p>© 2025, Nicole Chavez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p> 
+	</footer>
+</wrapper>
+</body>
+</html>
