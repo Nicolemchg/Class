@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.tabs.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.tabs.min.js"></script>
+<head>
+<meta charset="utf-8">
+<title>Travelocity</title>
+	<link rel="stylesheet" href="https://use.typekit.net/typ3vat.css">
+<style type="text/css">
+	
+	
+	body {
+  margin: 0;
+  background-image: url("Uyuni-background-2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+	background-color: whitesmoke;
+  background-position: 0% 100px;
+}
+	
+	
+
+	header {
+  background-color: transparent;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+	
+	.travelocity-logo {
+  height: 250px;
+  width: auto;
+  padding: 20px;
+}
+
+	
+	wrapper{
+		width:1366px;
+		margin: auto;
+		display:block;
+		background-color: rgba(255,255,255,0.20);
+	}
+	
+	
+	
+	footer {
+  font-size: 13px;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #ffffff;
+  background-color: rgba(0, 46, 94, 0.9); 
+  text-align: center;
+  padding: 15px 30px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.15);
+}
+
+	
+	li{
+		font-size:15pxpx;
+	}
+	
+	
+	.icons{
+		height: 50px;
+		width: auto;
+	}
+	
+	
+	
+	#Tabs1 li {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin: 0 8px;
+  padding: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#Tabs1 li:hover {
+  background-color: #daeaff;
+  transform: translateY(-2px);
+}
+
+#Tabs1 .ui-tabs-active {
+  background-color: #FF6600; 
+  color: white;
+}
+
+	
+	
+	#Tabs1 ul{
+		border:none;
+		background-color: transparent;
+		background-image: none;
+	}
+	
+	#Tabs1{
+		border:none;
+		background-color: transparent;
+		background-image: none;
+	}
+	
+	
+	
+	#Tabs1 div{
+		background-color: rgba(255,255,255,0.50);
+	}
+
+	
+	input, select {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+}
+
+	
+	input{
+		margin-left: 8px;
+		padding: 6px;
+		border-radius: 6px;
+		margin-right: 8px;
+		border: thin groove #7BAED4;
+		background-color: #ffffff;
+	}
+	
+	input:hover{
+		cursor:pointer;
+	}
+	
+	select{
+		margin-left: 8px;
+		padding:6px;
+		border-radius: 6px;
+		margin-right: 8px;
+		border: thin groove #003E74;
+	}
+	
+	section{
+		display: inline-block;
+		padding-left: 15px;
+		margin:25px;
+	}
+	
+	.travel{
+		padding-right: 15px;
+		border-top-left-radius: 36px;
+		border-top-right-radius: 38px;
+		cursor: pointer;
+		
+	}
+	
+	</style>
+</head>
+	
+	
+	
+<body>
+	<header>
+		<img src="Travelocity-Logo copy.png" alt="Travelocity logo" class="travelocity-logo">
+</header>
+
+	<wrapper>
+	
+	<div id="Tabs1">
+	 <ul>
+  <li><a href="#tabs-6"><img src="airplane.png" alt="Airplane icon" width="50" height="50" class="icons"><br>Flights</a></li>
+  <li><a href="#tabs-7"><img src="hotel.png" alt="Hotel icon" width="50" height="50" class="icons"><br>Hotels</a></li>
+  <li><a href="#tabs-8"><img src="car.png" alt="Car icon" width="50" height="50" class="icons"><br>Cars</a></li>
+  <li><a href="#tabs-9"><img src="cruise.png" alt="Cruise icon" width="50" height="50" class="icons"><br>Cruises</a></li>
+  <li><a href="#tabs-10"><img src="camera.png" alt="Activities icon" width="50" height="50" class="icons"><br>Activities</a></li>
+</ul>
+
+		
+	  <div id="tabs-6">
+	    <input type="text" placeholder="Leaving From"><input type="text" placeholder="Going To">From:<input type="date">To:<input type="date"><input type="submit">
+      </div>
+	  <div id="tabs-7">
+	    <input type="text" placeholder="Destination"><input type="date">
+		  <select>
+		  <option value="0">Nights</option>
+		<option value="1">3</option>
+		<option value="2">4</option>
+		<option value="3">5</option>
+		<option value="4">6</option>
+		  </select>
+		  <input type="number" placeholder="Guests"><input type="submit">
+      </div>
+      <div id="tabs-8">
+        Pick up:<input type="text" placeholder="Pick Up"><input type="date"><input type="time">Drop-Off:<input type="text" placeholder="Drop Off"><input type="date"><input type="time"><input type="submit">
+      </div>
+      <div id="tabs-9">
+       <input type="text" placeholder="Going to">Start Date:<input type="date">Arrival Date:<input type="date">Nights:<select>
+		  <option value="0">Nights</option>
+		<option value="1">2</option>
+		<option value="2">4</option>
+		<option value="3">6</option>
+		<option value="4">8</option>
+		<option value="1">10</option>
+		<option value="2">12</option>
+		<option value="3">14</option>
+		<option value="4">16</option>
+		  </select><input type="submit">
+      </div>
+      <div id="tabs-10">
+        <input type="text" placeholder="Activities">Hours Available<input type="time"><input type="submit">
+      </div>
+	</div>
+		
+		
+		
+		
+	
+  
+
+</wrapper>
+	
+	<footer>
+<p id="disclaimer">© 2025, Nicole Chavez. This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p>
+</footer>
+<script type="text/javascript">
+$(function() {
+	$( "#Tabs2" ).tabs(); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+$(function() {
+	$( "#Tabs1" ).tabs(); 
+});
+</script>
+</body>
+	
+</html>
