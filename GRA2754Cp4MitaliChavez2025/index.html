@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+<head>
+<meta charset="UTF-8">
+<title>My first practice responsive navigation| Mitali Chavez 2025</title>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+	<script type="text/javascript">
+  $(document).ready(
+    function() {
+      $('#icon').click (
+        function() {
+          $('#nav').show();
+          $('#icon').hide();
+          $('#x_icon').show();
+        }
+  );
+  $('#x_icon').click (
+    function() {
+          $('#nav').hide();
+          $('#icon').show();
+          $('#x_icon').hide();
+        }
+      );
+    }
+  );
+</script>
+<style type="text/css">
+	body {
+    margin: 0;
+	background-color: #e9efe8;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    )
+}
+wrapper {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    display: block;
+    background-color: rgba(255,255,255,.5);
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background-color: white;
+    height: 550px;
+}
+#icon, #x_icon {
+    width: 50px;
+    height: 50px;
+}
+#nav {
+    padding: 10px;
+    display: none;
+    background-color: mediumpurple;
+}
+nav ul a  {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media (min-width:1000px){
+section {
+    margin: 0 20px;
+    width: 30%;
+}
+	nav{
+    padding: 10px;
+    background-color: mediumpurple;
+		
+		
+	}
+#nav {
+    display: block;
+}
+ul a li {
+    padding: 10px;
+    list-style-type: none;
+    display: inline-block;
+	}nav ul {
+    padding: 0;
+    margin: 0;
+}
+li:hover{
+		background-color: lightyellow;
+		color: black;
+	}
+nav ul a {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+main {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+#icon {
+    display: none;
+}
+	}
+	h1{
+  font-family: "Playfair Display", serif;
+  font-size: 2.4rem;
+  margin:0 0 8px 0;
+  color: darkslategray;
+  letter-spacing: -0.5px;
+}
+	
+	
+	/* --- Cottagecore Additions --- */
+.hero-banner {
+  width: 100%;
+  max-height: 600px;
+  overflow: hidden;
+  border-bottom: 4px solid #4b6b50;
+  border-top: 4px solid #4b6b50;
+  background-color: darkolivegreen;
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  filter: saturate(0.9) brightness(1.05);
+}
+
+
+/* Make your wrapper feel like soft paper */
+.wrapper {
+  background-color: #fffdf6;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(76, 90, 68, 0.1);
+  padding: 25px;
+}
+
+section h2, section h3 {
+  font-family: "Merriweather", serif;
+  color: #3d5c43;
+}
+
+/* Gentle hover colors for nav */
+nav ul li:hover {
+  background-color: #c3e3c2;
+  color: #2e3f2b;
+  border-radius: 8px;
+  transition: all 0.2s ease-in;
+}
+
+	.logo {
+  width: 50px;  /* Adjust the size */
+  height: auto; /* Keeps proportions correct */
+  margin-right: 10px; /* Adds a little space before the title */
+  vertical-align: middle; /* Keeps it aligned with your title text */
+}
+
+	p {
+  text-align: justify;
+  line-height: 1.6; /* adds space between lines */
+  text-justify: inter-word; /* spaces words evenly */
+font-family: sans-serif;
+font-size: 15px;
+}
+
+.banner {
+  display: block;
+  width: 100%;        /* makes it stretch across the screen */
+  height: auto;       /* keeps proportions */
+  object-fit: cover;  /* fills the space nicely without distortion */
+  margin: 0;          /* removes unwanted spacing */
+}
+
+
+	
+footer {
+  margin-top: 150px;
+}
+	
+	
+</style>	
+
+</head>
+
+<body>
+	<div class="hero-banner">
+  <img src="invernadero.jpeg" alt="Illustration of woman holding a plant surrounded by leaves">
+</div>
+
+<wrapper>
+  <header><img src="black flower.png" alt="" class="logo" >
+	 
+    <h1>The Wild Petal&rsquo;s Garden</h1>
+	  
+	  <img id="icon" src="images2/menu.png" alt="Navigation icon. Click to expand navigation menu."/>
+	  
+<img id="x_icon" src="images2/x.png" alt="Exit out icon. Click to close navigation menu." style="display: none;" />
+	  
+    <nav id="nav">
+      <ul>
+        <a href="#services"><li>Services</li></a>
+        <a href="#Products"><li>Products</li></a>
+       <a href="#Contact-us"> <li>Contact-us</li></a>
+      </ul>
+    </nav>
+  </header>
+<img src="lavender.png" alt="" class="banner" >
+<main>
+  <section id="services">
+    <img src="planting.jpeg" alt="" width="250" height="auto">
+    <h2>Services</h2>
+    <p>We specialize in creating peaceful, nature-inspired spaces for every home and lifestyle. Our services range from custom garden setups and flower arrangements to organic herb and vegetable garden installations. We also offer regular maintenance and plant care, along with re-potting, pruning, and plant styling for indoor spaces. Every project we take on is rooted in care, creativity, and a genuine love for green living.</p>
+  </section>
+  <section id="Products">
+    <img src="red.jpeg" alt="" width="250" height="auto">
+    <h2>Products</h2>
+    <p>Our products are thoughtfully selected to complement every gardening need and aesthetic. We offer a variety of potted plants, from lush ferns and blooming flowers to resilient succulents and herbs. You’ll also find handmade ceramic pots, eco-friendly gardening tools, and natural fertilizers to help your plants thrive. Each item is chosen for its quality, sustainability, and ability to bring a touch of nature’s beauty into your home or garden.</p>
+  </section>
+  <section id="Contact-us">
+    <img src="plant pot.jpeg" alt="" width="250" height="auto">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Whether you’re looking to start a new garden project, need help caring for your plants, or just want to chat about your ideas, our team is here to help. Reach out to us through our contact form or email, we’ll get back to you as soon as we can to bring your garden dreams to life.</p>
+  </section>
+</main>
+<footer><p>© 2025, M. Nicole Chavez
+This is a fictitious web page created solely for the purpose of education and training. All products and people associated with this web page are also fictitious. Any resemblance to real brands, products, or people is purely coincidental. Information provided about the product is also fictitious and should not be construed to be representative of actual products on the market in a similar product category.</p></footer>
+</wrapper>
+</body>
+</html>
