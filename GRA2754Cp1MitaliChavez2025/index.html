@@ -10,14 +10,13 @@
 		body{
     margin: 0;
     padding: 0;
-    background-image: url("cute-pattern-flowers-warm-colors_23-2147563618.avif");
-    background-size: cover;
-			height: 100vh;
-	
+    height: 100vh;
+	background-color: antiquewhite
 	}
 		
-		wrapper{
-			width: 1000px;
+		.wrapper{
+			width: 90%;
+			max-width: 1000px; /* But don't let it get wider than 1000px */
 			display: block;
 			margin:auto;
 			padding-top: 0px;
@@ -43,10 +42,33 @@
 		
 		main{
 			text-align: center;
+			padding-bottom: 20px;
 		}
 		
-		footer{
-    height: 80px;
+		/* Media Query for screens smaller than 768px (standard tablet/mobile breakpoint) */
+@media (max-width: 768px) {
+  
+  /* Make the main heading text smaller on small screens */
+  h1 {
+    font-size: 36px;
+  }
+  
+  /* Reduce padding on the main content area */
+  .wrapper {
+    padding: 10px;
+  }
+  
+  /* Make the footer text smaller for mobile */
+  footer {
+    font-size: 14px;
+    padding: 5px;
+	  background-color:coral;
+    font-size: 12pt;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+  }
+}
+	footer{
+    
     clear: both;
     padding-left: 10px;
     padding-right: 10px;
@@ -54,10 +76,11 @@
     padding-bottom: 10px;
     background-size: contain;
     background-color:coral;
-    font-size: 12pt;
+    font-size: 14px;
 	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-
-	}
+	}	
+		
+		
 	
 		svg{
 			width: 100%;
